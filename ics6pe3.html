@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python Exercise 3</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PY4E - Python for Everybody</title>
+        <script>
+        var _TSUGI = { 
+            ajax_session: false,
+            spinnerUrl: "https://www.dr-chuck.net/tsugi-static/img/spinner.gif",
+            staticroot: "https://www.dr-chuck.net/tsugi-static",
+            window_close_message: "Application complete",
+            session_expire_message: "Your session has expired"
+        }
+        </script>
+        <!-- Tiny bit of JS -->
+        <script src="https://www.dr-chuck.net/tsugi-static/js/tsugiscripts_head.js"></script>
+        <!-- Le styles -->
+        <link href="https://www.dr-chuck.net/tsugi-static/bootstrap-3.1.1/css/bootswatch/cerulean/bootstrap.min.css" rel="stylesheet">
+        <link href="https://www.dr-chuck.net/tsugi-static/js/jquery-ui-1.11.4/jquery-ui.min.css" rel="stylesheet">
+        <link href="https://www.dr-chuck.net/tsugi-static/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://www.dr-chuck.net/tsugi-static/css/tsugi.css" rel="stylesheet">
+
+    <style>
+    body {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .navbar {
+      margin-bottom: 20px;
+    }
+    .container_iframe {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+</style>
+<style>
+a[target="_blank"]:after {
+    font-family: "FontAwesome";
+    content: " \f08e";
+}
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    }
+body {
+    top: 0px !important;
+    }
+</style>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://www.py4e.com/tsugi/vendor/tsugi/lib/static/js/html5shiv/html5shiv.js"></script>
+          <script src="https://www.py4e.com/tsugi/vendor/tsugi/lib/static/js/respond/respond.min.js"></script>
+        <![endif]-->
+
+    <script type="text/javascript">CSRF_TOKEN = "TODORemoveThis";</script>
+</head>
+<body>
+<div class="container">
+<h2 id="exercises">Exercises</h2>
+
+<p>Exercise 1: Rewrite your pay computation to give the employee 1.5 times the hourly rate for hours worked above 40 hours.</p>
+<pre><code>Enter Hours: 45
+Enter Rate: 10
+Pay: 475.0</code></pre>
+<p>Exercise 2: Rewrite your pay program using <code>try</code> and <code>except</code> so that your program handles non-numeric input gracefully by printing a message and exiting the program. The following shows two executions of the program:</p>
+<pre><code>Enter Hours: 20
+Enter Rate: nine
+Error, please enter numeric input</code></pre>
+<pre><code>Enter Hours: forty
+Error, please enter numeric input</code></pre>
+<p>Exercise 3: Write a program to prompt for a score between 0.0 and 1.0. If the score is out of range, print an error message. If the score is between 0.0 and 1.0, print a grade using the following table:</p>
+<pre><code>Score   Grade
+&gt;= 0.9     A
+&gt;= 0.8     B
+&gt;= 0.7     C
+&gt;= 0.6     D
+&lt; 0.6    F</code></pre>
+<pre><code>Enter score: 0.95
+A</code></pre>
+<pre><code>Enter score: perfect
+Bad score</code></pre>
+<pre><code>Enter score: 10.0
+Bad score</code></pre>
+<pre><code>Enter score: 0.75
+C</code></pre>
+<pre><code>Enter score: 0.5
+F</code></pre>
+<p>Run the program repeatedly as shown above to test the various different values for input.</p>
+
+
+</div>
+</body>
+</html>
